@@ -1,0 +1,181 @@
+   *{
+    font-family: Sofia Pro;
+    font-weight:300;
+}
+body, ul, li{
+    margin:0;
+    padding:0;
+}
+p, li, h1, h2, h3, h4{
+    color:darkslategrey;
+}
+body{
+    background-color: azure;
+}
+.wrapper{
+    width:96%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 2%;
+}
+header{
+    background-color: papayawhip;
+    padding:10px 0;
+}
+.logo{
+    margin:0;
+    background: url(logo.png);
+    background-size:70px 70px;
+    float:left;
+    width:70px;
+    height:70px;
+}
+.photo{
+    margin-top: -105px;;
+    background: url(Photo.png);
+    background-size:70px 70px;
+    float:right;
+    width:70px;
+    height:70px;
+}
+header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header h1{
+    font-size: 60px;
+    margin-left: 250px;
+}
+#main-banner{
+    width:70%;
+    height:400px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform:translate(-50%,-50%);
+    background-image: url("./5.png");
+    background-size: 100%,100%;
+    animation:slider 180s infinite linear;
+}
+            #usp {
+                margin-top: 500px;
+            }
+            #usp li{
+                float: left;
+                width: 23%;
+                padding: 1%;
+                text-align: center;
+                list-style-type: none;
+            }
+            #usp li img {
+                height: 80px;
+                padding: 20px;
+                background-color: coral;
+                border-radius: 50%;
+            }
+            #usp li h2 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+            #usp:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            #products {
+                padding-top: 30px;
+                margin-top: 30px;
+                border-top: 2px solid lightgrey;
+            }
+            #products li {
+                float: left;
+                width: 32%;
+                list-style-type: none;
+                text-align: center;
+            }
+            #products li img {
+                width: 100%;
+            }
+            #products li:nth-child(even) {
+                margin: 0 1%;
+            }
+            #products:after {
+                content: "";
+                display: block;
+                clear: both;
+            }
+            #our-products {
+                text-align: center;
+            }
+            footer{
+    width:100%;
+    background-color: darkslategrey;
+    padding: 30px 0;
+    margin-top:60px;
+}
+footer ul{
+    float:left;
+    width:48%;
+    margin:1%;
+}
+footer ul h3{
+    font-size:30px;
+    color: azure;
+}
+footer ul li{
+    list-style-type: none;
+    font-size:15px;
+    color: azure;
+}
+footer:after{
+    display:block;
+    content:"";
+    clear:both;
+}
+            
+            /* Animation */
+            @keyframes slider {
+                0% { background-image: url('./19.png'); }
+                6.25% { background-image: url('./5.png'); }
+                12.5% { background-image: url('./6.png'); }
+                18.75% { background-image: url('./7.png'); }
+                25% { background-image: url('./8.png'); }
+                31.25% { background-image: url('./9.png'); }
+                37.5% { background-image: url('./10.png'); }
+                43.75% { background-image: url('./11.png'); }
+                50% { background-image: url('./12.png'); }
+                56.25% { background-image: url('./13.png'); }
+                62.5% { background-image: url('./14.png'); }
+                68.75% { background-image: url('./15.png'); }
+                75% { background-image: url('./16.png'); }
+                81.25% { background-image: url('./17.png'); }
+                87.5% { background-image: url('./18.png'); }
+                93.75% { background-image: url('./20.png'); }
+                100% { background-image: url('./19.png'); }
+            }
+.greet{
+    background-color: #48C9B0;
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+iframe{
+    margin-left:  30px;
+}
+.wrapper .songs{
+    text-align:center;
+}
+.wrapper .songs h2{
+    text-align: "center";
+    color:azure;
+}
+#surprise{
+    text-align: center;
+}
+#thanks{
+    text-align:center;
+}
